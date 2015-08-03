@@ -22,7 +22,7 @@ module.exports = generators.Base.extend({
         'one-var': [2, 'never'],
         'consistent-return': 0,
         'no-use-before-define': [2, 'nofunc'],
-        'space-before-function-paren': [2, {anonymous: 'always', named: 'never'}],
+        'space-before-function-paren': [2, {anonymous: 'never', named: 'never'}],
         'space-after-keywords': [2, 'always'],
         'array-bracket-spacing': [2, 'never'],
         'space-in-parens': [2, 'never'],
